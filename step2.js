@@ -16,7 +16,8 @@ console.log(value)};
 
 addToZero([1, 2, 3, -2]);
 
-//Run Time = //
+//Run Time = 0(n^2)//
+
 
 //______________________________________________________________//
 
@@ -31,7 +32,8 @@ return uniqueChars.size === string.length }
 
 console.log(hasUniqueChars("Monday"));
 
-//Run Time = //
+//Run Time = 0(n) //
+
 
 //______________________________________________________________//
 
@@ -47,7 +49,8 @@ const isPangram = (string) => {
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog"))
 
-//Run Time = //
+//Run Time = 0(n)//
+
 
 //______________________________________________________________//
 
@@ -65,3 +68,5 @@ const findLongestWord = (arr) => {
 }
 
 console.log(findLongestWord(["theactuallongestword","hi", "hello", "reallylongword"]));
+
+//Run Time = 0(n)//
